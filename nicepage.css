@@ -34103,12 +34103,12 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-footer .u-social-icons-1 {
   min-height: 16px;
-  width: 387px;
+  width: 453px;
   min-width: 208px;
   white-space: nowrap;
   animation-duration: 1000ms;
-  height: 52px;
-  margin: 37px auto 30px;
+  height: 65px;
+  margin: 32px auto 37px;
 }
 
 .u-footer .u-icon-1 {
@@ -34140,7 +34140,6 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-social-icons-1 {
-    width: 387px;
     margin-top: 49px;
     margin-bottom: 10px;
   }
