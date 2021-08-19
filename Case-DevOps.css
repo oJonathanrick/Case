@@ -445,7 +445,7 @@
 }
 
 .u-section-4 .u-sheet-1 {
-  min-height: 716px;
+  min-height: 659px;
 }
 
 .u-section-4 .u-image-1 {
@@ -454,7 +454,7 @@
   background-image: url("images/WhatsAppImage2021-06-21at11.51.462.jpeg");
   background-position: 50% 50%;
   animation-duration: 1000ms;
-  margin: 0 auto;
+  margin: 1px auto 0;
 }
 
 .u-section-4 .u-text-1 {
@@ -471,7 +471,7 @@
   font-size: 1.25rem;
   animation-duration: 1000ms;
   width: 859px;
-  margin: 18px auto 58px;
+  margin: 18px auto 1px;
 }
 
 @media (max-width: 991px) {
@@ -492,7 +492,7 @@
 
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 670px;
+    min-height: 613px;
   }
 
   .u-section-4 .u-image-1 {
