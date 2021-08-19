@@ -34098,17 +34098,17 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 126px;
+  min-height: 134px;
 }
 
 .u-footer .u-social-icons-1 {
   min-height: 16px;
-  width: 325px;
-  min-width: 80px;
+  width: 422px;
+  min-width: 100px;
   white-space: nowrap;
   animation-duration: 1000ms;
-  height: 65px;
-  margin: 32px auto 37px;
+  height: 80px;
+  margin: 27px auto 34px;
 }
 
 .u-footer .u-icon-1 {
@@ -34140,8 +34140,8 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-social-icons-1 {
-    margin-top: 49px;
-    margin-bottom: 10px;
+    width: 365px;
+    min-width: 120px;
   }
 }
 @media (max-width: 991px) {
