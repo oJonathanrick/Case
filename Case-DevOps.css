@@ -469,9 +469,9 @@
   line-height: 1.8;
   font-weight: 300;
   font-size: 1.25rem;
-  width: 859px;
   animation-duration: 1000ms;
-  margin: 20px auto;
+  width: 859px;
+  margin: 18px auto 58px;
 }
 
 @media (max-width: 991px) {
