@@ -34121,12 +34121,12 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-footer .u-social-icons-1 {
   min-height: 16px;
-  width: 422px;
-  min-width: 100px;
+  width: 462px;
+  min-width: 140px;
   white-space: nowrap;
   animation-duration: 1000ms;
   height: 80px;
-  margin: 27px auto 34px;
+  margin: 27px auto 30px;
 }
 
 .u-footer .u-icon-1 {
@@ -34158,8 +34158,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-social-icons-1 {
-    width: 365px;
-    min-width: 120px;
+    width: 462px;
   }
 }
 @media (max-width: 991px) {
