@@ -295,6 +295,7 @@
   }
 }.u-section-2 {
   background-image: linear-gradient(0deg, rgba(51,51,51,0.85), rgba(51,51,51,0.85)), url("https://pixabay.com/get/g19cad539582850245cb20b1d77f074d221d40eb94fbc66caa9e9d4138904a822f2cc5a4a498a5918acd139e43bec9b1a668281d0008ec146114935f9e854bf99_1280.jpg");
+  background-position: 50% 50%;
 }
 
 .u-section-2 .u-sheet-1 {
@@ -326,10 +327,6 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-2 {
-    background-position: 50% 50%;
-  }
-
   .u-section-2 .u-sheet-1 {
     min-height: 660px;
   }
@@ -349,6 +346,10 @@
 }
 
 @media (max-width: 991px) {
+  .u-section-2 {
+    background-position: 50% 50%;
+  }
+
   .u-section-2 .u-sheet-1 {
     min-height: 506px;
   }
