@@ -25,24 +25,21 @@
     <meta property="og:title" content="pipeline">
     <meta property="og:type" content="website">
   </head>
-  <body class="u-body"><header class="u-align-center-sm u-align-center-xs u-clearfix u-grey-80 u-header u-sticky u-header" id="sec-20fb"><div class="u-align-left u-clearfix u-sheet u-sheet-1"></div></header>
+  <body class="u-body">
     <section class="u-clearfix u-grey-80 u-section-1" id="sec-0cef">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h1 class="u-align-center u-text u-text-default u-text-1">Pipeline NGINX-LAB</h1>
-        <p class="u-text u-text-2"> node { <br> stage('Deletando arquivos antigos') { <br> sh "rm -rf /home/ubuntu/jenkins" <br> } <br>
-          <br> stage('Fazendo download do projeto') { <br> sh "git clone https://github.com/Extars01/Case.git /home/ubuntu/jenkins" <br>
-          <br> } <br> stage('Construindo imagem da aplicação') { <br> sh "sudo docker build -t image-nginx /home/ubuntu/jenkins" <br>
-          <br> } <br> stage('Derrumando versão antiga da aplicação') { <br> sh "sudo docker stop site &amp;&amp; docker rm site" <br> } <br>
-          <br> stage('Levantando aplicação atualizada'){ <br> sh "sudo docker run --name site -p 80:80 -d image-nginx" <br> } <br>}&nbsp;<br>
+        <p class="u-text u-text-2"> node { <br>&nbsp; &nbsp; &nbsp; &nbsp; stage('Deletando arquivos antigos') { <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;sh "rm -rf /home/ubuntu/jenkins"&nbsp;<br>
+          <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;} <br> &nbsp; &nbsp; &nbsp; &nbsp;stage('Fazendo download do projeto') { <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sh "git clone https://github.com/Extars01/Case.git /home/ubuntu/jenkins" <br>
+          <br> &nbsp; &nbsp; &nbsp; &nbsp; } <br> &nbsp; &nbsp; &nbsp; &nbsp;stage('Construindo imagem da aplicação') { <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sh "sudo docker build -t image-nginx /home/ubuntu/jenkins" <br>
+          <br> &nbsp; &nbsp; &nbsp; &nbsp; } <br> &nbsp; &nbsp; &nbsp; &nbsp;stage('Derrumando versão antiga da aplicação') { <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sh "sudo docker stop site &amp;&amp; docker rm site"&nbsp;<br>
+          <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;} <br> &nbsp; &nbsp; &nbsp; &nbsp;stage('Levantando aplicação atualizada'){ <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sh "sudo docker run --name site -p 80:80 -d image-nginx"&nbsp;<br>&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; } <br>}&nbsp;<br>
         </p>
       </div>
     </section>
     
     
-    <footer class="u-clearfix u-footer u-grey-80" id="sec-c410"><div class="u-align-left u-clearfix u-sheet u-sheet-1">
-        <a href="https://nicepage.com/k/ranking-website-templates" class="u-align-center u-border-1 u-border-active-palette-2-base u-border-hover-palette-1-base u-btn u-button-style u-custom-font u-font-ubuntu u-none u-text-palette-5-light-3 u-btn-1"> &nbsp;(41) 9 8779 7307<br>heitor.augusto.galindo@live.com
-        </a>
-      </div></footer>
+    
     <section class="u-backlink u-clearfix u-grey-80">
       <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
         <span>Web Templates</span>
